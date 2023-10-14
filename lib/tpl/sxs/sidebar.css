@@ -1,0 +1,137 @@
+/*
+ * Layout & design elements for the sidebar
+ *
+ * @author Chris chris at jalakai dot co dot uk (sidebar template)
+ * @author Christopher Arndt <chris@chrisarndt.de>
+ */
+
+/* ---------- document ---------- */
+div.dokuwiki #content {
+  width: 80%;
+  float: left;
+  margin-left: 0%;
+  margin-right: 2%;
+  border: solid 1px #9C2517;
+}
+
+/* ---------- sidebar ---------- */
+div.dokuwiki #sidebar {
+	float: right;
+	width: 17%;
+//	width: 150px;
+	margin: 0px;
+}
+
+div.dokuwiki #sitecmd, div.dokuwiki #sitenav {
+	margin-top: 0px;
+	margin-left:  0px;
+	margin-right: 0px;
+	margin-bottom: 1.0em;
+	border: none; /*solid 1px black;*/
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	background-color: #9C2517;
+}
+
+div.dokuwiki #sitecmd_title {
+	font-size: 115%;
+	font-weight: normal;
+	color: #888C90;
+	margin-top: 0px;
+	margin-bottom: 0.1em;
+	margin-left: 0px;
+	margin-left: 0px;
+	padding-top: 3px;
+	padding-bottom: 1px;
+	padding-left: 0.1em;
+}
+
+div.dokuwiki #sitenav_title {
+	font-family: "Times New Roman","Times",serif;
+	/font-weight: bold;*/
+	font-size: 100%;
+	color: #888C90;
+	padding-left: 3px;/*0.05em;*/
+	padding-top: 0.15em;
+	padding-bottom: 0.25em;
+}
+
+div.dokuwiki #sitecmd_content, div.dokuwiki #sitenav_content {
+	overflow: hidden;
+	background-color: #AAA264;
+	font-size: 100%;
+	border: solid 1px black;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+div.dokuwiki #sitecmd_content {
+	/* padding-left: 1.0em; */
+}
+
+/* ---------- unordered lists ---------- */
+div.dokuwiki #sidebar ul {
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0;
+  padding-left: 1.8em;
+}
+
+div.dokuwiki #sitenav ul li {
+  background: transparent url(images/closed.gif) left top no-repeat;
+  padding-left: 0.6em;
+}
+
+div.dokuwiki #sitenav ul li.clear {
+  background-image: none;
+  padding-left: 0.4em;
+}
+
+div.dokuwiki #sitecmd ul {
+  padding-top: 0.4em;
+}
+
+div.dokuwiki #sitecmd ul li {
+  color: #9C2517;
+  /*background: transparent url(images/bullet.gif) left top no-repeat;*/
+  /*padding-left: 0.06em;*/
+}
+
+/* ---------- links ---------- */
+div.dokuwiki #sitenav a, div.dokuwiki  #sitecmd a  {
+	color: #9C2517;
+	border: 0px;
+	text-decoration: none;
+}
+
+div.dokuwiki #sitenav a:visited, div.dokuwiki #sitecmd a:visited  {
+	color: #9C2517;
+	border: 0px;
+	text-decoration: none;
+}
+
+div.dokuwiki #sitenav a:hover, div.dokuwiki #sitecmd a:hover  {
+	color: #C06B45;
+	border: 0px;
+	text-decoration: none;
+}
+
+div.dokuwiki .buttonbox {
+	text-align: center;
+}
+
+div.dokuwiki .buttonbox input.button {
+	width: 90%;
+}
+
+/* ---------- special headlines ---------- */
+div.dokuwiki #sidebar h1 {
+	font-size: 100%;
+	margin-left: 0.1em;
+	margin-bottom: 0.5em;
+	border-bottom: none;
+}
